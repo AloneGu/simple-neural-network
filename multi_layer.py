@@ -67,9 +67,9 @@ class NeuralNetwork():
         print "    Layer 2 (1 neuron, with 4 inputs):"
         print self.layer2.synaptic_weights
 
-if __name__ == "__main__":
 
-    #Seed the random number generator
+if __name__ == "__main__":
+    # Seed the random number generator
     random.seed(1)
 
     # Create layer 1 (4 neurons, each with 3 inputs)

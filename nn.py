@@ -50,8 +50,7 @@ class NeuralNetwork():
 
 
 if __name__ == "__main__":
-
-    #Intialise a single neuron neural network.
+    # Intialise a single neuron neural network.
     neural_network = NeuralNetwork()
 
     print "Random starting synaptic weights: "
@@ -66,7 +65,7 @@ if __name__ == "__main__":
 
     # Train the neural network using a training set.
     # Do it 10,000 times and make small adjustments each time.
-    neural_network.train(training_set_inputs, training_set_outputs, 10000)
+    neural_network.train(training_set_inputs, training_set_outputs, 10)
 
     print "New synaptic weights after training: "
     print neural_network.synaptic_weights
