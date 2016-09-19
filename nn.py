@@ -61,6 +61,8 @@ if __name__ == "__main__":
     # and 1 output value.
     training_set_inputs = array([[0, 0, 1], [1, 1, 1], [1, 0, 1], [0, 1, 1]])
     training_set_outputs = array([[0, 1, 1, 0]]).T
+    print training_set_inputs.shape
+    print training_set_outputs.shape
 
     # Train the neural network using a training set.
     # Do it 10,000 times and make small adjustments each time.
