@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-# @Time    : 9/19/16 10:43 AM
-# @Author  : Jackling 
-
-
 # !/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Time    : 9/19/16 10:06 AM

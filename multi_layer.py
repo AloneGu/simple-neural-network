@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-# @Time    : 9/19/16 10:42 AM
-# @Author  : Jackling 
-
-
 from numpy import exp, array, random, dot
 
 
