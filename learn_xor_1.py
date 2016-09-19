@@ -36,8 +36,8 @@ print X_train.shape
 print y_train.shape
 
 
-for i in range(10,41):
-    print 'training',i*10,'epochs',
+for i in range(1,21):
+    print 'training',i*5,'epochs',
 
     # Create layer 1 (4 neurons, each with 3 inputs)
     layer1 = NeuronLayer(4, 3)
@@ -49,7 +49,7 @@ for i in range(10,41):
     network = NeuralNetwork(layer1, layer2)
 
     # Train the neural network using a training set.
-    network.train(X_train, y_train, i*10)
+    network.train(X_train, y_train, i*5)
 
     # test
     _,res = network.think(X_test)
